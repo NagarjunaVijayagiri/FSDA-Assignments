@@ -1,2 +1,8 @@
 # FSDA-Assignments
-Contains All FSDA Assignments or challenges
+
+Hello there,
+My self, Nagarjuna, Learning Data Analytics.
+
+I will keep updating this folder with all the Assignments or challenges I work on.
+
+Thanks for checking.
