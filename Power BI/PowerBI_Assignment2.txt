@@ -1,0 +1,20 @@
+1.	Explain the advantages of Natural Queries in PowerBi with an example?
+    a. Q&A enables Natural language querying, where in end user can ask questions in English to get the resultant report.
+    b. Querying becomes easy as there is not need of knowledge on any other querying languages like SQL,MySql etc.
+    c. Auto-complete feature helps users to select relevant query or fill in the query.
+    d. Q&A identifies the words while typing and underlines the words with colors when matched with a field or value in the data model
+    e. As you type in, Q&A can produce visualization by taking relavant fields into the proper axis.
+    
+    Example: show me top 10 products by sales
+             show me sales growth in last quater
+             
+2.  Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+    The Architecture of Power BI service is based on 2 Clusters,
+    1. Web Front End (WFE) cluster which handles the initial connections & authentication to PBI service.
+    2. Bank end cluster which handles the subsequent interactions.
+    
+    PBI service uses Azure Active Directory(AAD) to manage mange user identities, AAD manages storage in Azure Blob & meta data into SQL database.
+    PBI uses Azure Trafic manager to direct the traffic to nearest data center. This traffic manager uses DNS record of client trying to connect, authenticate
+    and download any files or static content.
+    Azure Content Delivery network (CDN) help Power BI to efficiently distribute the static content & files based on user location.
+    
